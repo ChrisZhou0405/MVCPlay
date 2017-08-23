@@ -29,5 +29,13 @@ namespace MvcLearn.Controllers
                 (object)String.Format("Total: {0:c}", cartTotal));
         }
 
+        public ViewResult UseExtensionToint()
+        {
+            string soure = "100";
+            int cartTotal = soure.ToInt(DateTime.Now);
+            return View("Result",
+                (object)String.Format("Total: {0:c}", cartTotal));
+        }
+
     }
 }

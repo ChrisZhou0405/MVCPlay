@@ -16,5 +16,13 @@ namespace MvcLearn.Models
             }
             return total;
         }
+
+        public static int ToInt(this string str,DateTime date)
+        {
+            int res;
+            int.TryParse(str,out res);
+            return res;
+        }
+
     }
 }
