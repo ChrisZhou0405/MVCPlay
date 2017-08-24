@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLearn", "MvcLearn\MvcLearn.csproj", "{57ABB44B-A110-44AB-BC62-8E40243D1733}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "高级语法_特性标签", "高级语法\高级语法_特性标签.csproj", "{8ADBC992-B64B-4ED8-9B0E-F52F77033AF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{57ABB44B-A110-44AB-BC62-8E40243D1733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57ABB44B-A110-44AB-BC62-8E40243D1733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57ABB44B-A110-44AB-BC62-8E40243D1733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADBC992-B64B-4ED8-9B0E-F52F77033AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADBC992-B64B-4ED8-9B0E-F52F77033AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADBC992-B64B-4ED8-9B0E-F52F77033AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADBC992-B64B-4ED8-9B0E-F52F77033AF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
